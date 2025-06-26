@@ -121,23 +121,6 @@ function Techstack() {
                     <div className="tech-label">Linux</div>
                 </Col>
             </Row>
-
-            {/* ─────────── IDEs ─────────── */}
-            <h2 className="skill-category-title">IDEs</h2>
-            <Row style={{ justifyContent: 'center', paddingBottom: '50px' }}>
-                <Col xs={4} md={2} className="tech-icons" title="Eclipse">
-                    <SiEclipseide />
-                    <div className="tech-label">Eclipse</div>
-                </Col>
-                <Col xs={4} md={2} className="tech-icons" title="IntelliJ">
-                    <SiIntellijidea />
-                    <div className="tech-label">IntelliJ</div>
-                </Col>
-                <Col xs={4} md={2} className="tech-icons" title="VS Code">
-                    <SiVisualstudiocode />
-                    <div className="tech-label">VS Code</div>
-                </Col>
-            </Row>
         </>
     );
 }
